@@ -10,6 +10,7 @@ import UseEffectFetch from "./components/UseEffectFetch";
 import OldContextAPI1 from "./components/OldContextAPI1";
 import OldContextButton from "./components/OldContextButton";
 import UseContextAPI from "./components/UseContextAPI";
+import UseReducerCounter from "./components/UseReducerCounter";
 
 import {
   NameContext,
@@ -60,6 +61,9 @@ export default function App() {
               <hr />
               <br />
               <UseContextAPI />
+              <hr />
+              <br />
+              <UseReducerCounter />
             </div>
           </ThemeContext.Provider>
         </NameContext.Provider>
