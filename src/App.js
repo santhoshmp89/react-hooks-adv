@@ -11,6 +11,7 @@ import OldContextAPI1 from "./components/OldContextAPI1";
 import OldContextButton from "./components/OldContextButton";
 import UseContextAPI from "./components/UseContextAPI";
 import UseReducerCounter from "./components/UseReducerCounter";
+import CustomeHooks1 from "./components/CustomHooks1";
 
 import {
   NameContext,
@@ -64,6 +65,9 @@ export default function App() {
               <hr />
               <br />
               <UseReducerCounter />
+              <hr />
+              <br />
+              <CustomeHooks1 />
             </div>
           </ThemeContext.Provider>
         </NameContext.Provider>
