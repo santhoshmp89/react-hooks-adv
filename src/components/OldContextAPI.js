@@ -9,5 +9,7 @@ export const theme = React.createContext({
   setTheme: () => {}
 });
 
+export const CounterContext = React.createContext("dsd");
+
 NameContext.displayName = "NameContext";
 ThemeContext.displayName = "ThemeContext";
