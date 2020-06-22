@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from "react";
+import React, { useState, useReducer, useMemo } from "react";
 import "./styles.css";
 import Counter from "./components/Counter";
 import HookExThree from "./components/HookExThree";
@@ -14,6 +14,8 @@ import UseReducerCounter from "./components/UseReducerCounter";
 import CustomeHooks1 from "./components/CustomHooks1";
 import { CounterContext } from "./components/OldContextAPI";
 import { UseContextAndUseReducer } from "./components/UseContextAndUseReducer";
+import ReactMemo from "./components/ReactMemo";
+import UseMemo from "./components/UseMemo";
 
 import {
   NameContext,
@@ -99,6 +101,12 @@ export default function App() {
                 <hr />
                 <br />
                 <UseContextAndUseReducer />
+                <hr />
+                <br />
+                <ReactMemo />
+                <hr />
+                <br />
+                <UseMemo />
               </div>
             </CounterContext.Provider>
           </ThemeContext.Provider>
