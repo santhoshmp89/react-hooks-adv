@@ -16,6 +16,7 @@ import { CounterContext } from "./components/OldContextAPI";
 import { UseContextAndUseReducer } from "./components/UseContextAndUseReducer";
 import ReactMemo from "./components/ReactMemo";
 import UseMemo from "./components/UseMemo";
+import UseMemo1 from "./components/UseMemo1";
 
 import {
   NameContext,
@@ -107,6 +108,9 @@ export default function App() {
                 <hr />
                 <br />
                 <UseMemo />
+                <hr />
+                <br />
+                <UseMemo1 />
               </div>
             </CounterContext.Provider>
           </ThemeContext.Provider>
