@@ -6,7 +6,11 @@ const List = props => {
     <ul>
       {props.list &&
         props.list.map(v => {
-          return <li key={v}>{v}</li>;
+          return (
+            <li key={v} onClick={() => props.handleClick(v)}>
+              {v}
+            </li>
+          );
         })}
     </ul>
   );

@@ -17,6 +17,7 @@ import { UseContextAndUseReducer } from "./components/UseContextAndUseReducer";
 import ReactMemo from "./components/ReactMemo";
 import UseMemo from "./components/UseMemo";
 import UseMemo1 from "./components/UseMemo1";
+import UseRef from "./components/UseRef";
 
 import {
   NameContext,
@@ -111,6 +112,9 @@ export default function App() {
                 <hr />
                 <br />
                 <UseMemo1 />
+                <hr />
+                <br />
+                <UseRef />
               </div>
             </CounterContext.Provider>
           </ThemeContext.Provider>
