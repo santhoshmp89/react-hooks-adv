@@ -1,4 +1,4 @@
-import React, { useState, useReducer, useMemo } from "react";
+import React, { useState, useReducer } from "react";
 import "./styles.css";
 import Counter from "./components/Counter";
 import HookExThree from "./components/HookExThree";
@@ -18,12 +18,16 @@ import ReactMemo from "./components/ReactMemo";
 import UseMemo from "./components/UseMemo";
 import UseMemo1 from "./components/UseMemo1";
 import UseRef from "./components/UseRef";
+import DocTitle from "./useDocumentTitle/DocTitle";
+import DocTitle2 from "./useDocumentTitle/DocTitle2";
 
 import {
   NameContext,
   ThemeContext,
   theme as Theme
 } from "./components/OldContextAPI";
+
+import UseReducerAndContext from "./UseReducerAndContext";
 
 const initialState = 0;
 
@@ -115,6 +119,13 @@ export default function App() {
                 <hr />
                 <br />
                 <UseRef />
+                <hr />
+                <br />
+                <UseReducerAndContext />
+                <hr />
+                <br />
+                <DocTitle />
+                <DocTitle2 />
               </div>
             </CounterContext.Provider>
           </ThemeContext.Provider>
